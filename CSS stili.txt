@@ -1,0 +1,116 @@
+/* Globālie stili un resetošana */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif; [span_1](start_span)/* Pamatteksta fonts: Ērts lasīšanai, profesionāls[span_1](end_span) */
+line-height: 1.6;
+background-color: #F3E3D8; [span_2](start_span)/* Sekundārā krāsa (gaiši smilškrāsa)[span_2](end_span) */
+color: #3E2513; [span_3](start_span)/* Primārā krāsa (tumši brūna) saturam[span_3](end_span) */
+padding-top: 80px; /* Atstarpe fiksētai navigācijai */
+}
+
+/* Virsrakstu stili */
+h1, h2, h3 {
+font-family: 'Verdana', sans-serif; [span_4](start_span)/* Virsrakstu fonts: Moderns, labi salasāms sans-serif[span_4](end_span) */
+color: #3E2513;
+margin-bottom: 0.8em;
+text-align: center;
+}
+
+h1 {
+font-size: 2.5em;
+}
+
+/* Navigācijas josla */
+header {
+background-color: #3E2513; [span_5](start_span)/* Primārā krāsa[span_5](end_span) */
+position: fixed; /* Padara joslu fiksētu lapas augšpusē */
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 15px 0;
+}
+
+nav ul li {
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 8px 15px;
+border-radius: 5px; [span_6](start_span)/* Apaļas formas draudzīgumam[span_6](end_span) */
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Galvenais saturs konteiners */
+.container {
+max-width: 1000px;
+margin: 40px auto;
+padding: 30px;
+background-color: white;
+border-radius: 10px; [span_7](start_span)/* Apaļas formas[span_7](end_span) */
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Attēlu stili */
+.content-image {
+max-width: 100%;
+height: auto;
+border-radius: 8px; [span_8](start_span)/* Kvalitatīvi attēli un ilustrācijas[span_8](end_span) */
+margin: 20px auto;
+display: block;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Funkciju kastes */
+.feature-box {
+background-color: #F3E3D8;
+padding: 20px;
+margin: 20px 0;
+border-radius: 8px;
+text-align: left;
+border-left: 5px solid #3E2513;
+}
+
+/* Saraksti */
+ul {
+margin-left: 20px;
+padding-bottom: 10px;
+}
+
+[span_9](start_span)/* Responsivitāte (Ierīču atbalsts: Dators, planšete un telefons[span_9](end_span)) */
+@media (max-width: 768px) {
+body {
+padding-top: 100px;
+}
+nav ul {
+flex-wrap: wrap;
+padding: 10px;
+}
+nav ul li {
+margin: 5px 10px;
+}
+.container {
+margin: 20px 10px;
+padding: 20px;
+}
+}
+

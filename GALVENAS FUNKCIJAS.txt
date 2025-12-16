@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LearnTrack - Galvenās Funkcijas</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html">Sākumlapa</a></li>
+<li><a href="problem.html">Problēma</a></li>
+<li><a href="features.html" class="active">Funkcijas</a></li>
+<li><a href="target.html">Kam paredzēts</a></li>
+<li><a href="structure.html">Struktūra</a></li>
+<li><a href="tech.html">Tehniskais Risinājums</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="container">
+[span_18](start_span)<h1>Galvenās funkcijas[span_18](end_span)</h1>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+<div class="feature-box">
+<h3>UZDEVUMU PĀRVALDĪBA</h3>
+[span_19](start_span)<p>Pievieno, rediģē un atzīmē izpildītos uzdevumus[span_19](end_span). [span_20](start_span)Seko līdzi termiņiem ar integrētu kalendāru[span_20](end_span).</p>
+</div>
+
+<div class="feature-box">
+<h3>MATERIĀLU BIBLIOTĒKA</h3>
+[span_21](start_span)<p>Augšupielādē un organizē PDF, prezentācijas, piezīmes pēc priekšmetiem un tēmām[span_21](end_span).</p>
+</div>
+
+<div class="feature-box">
+<h3>KALENDĀRS UN ATGĀDINĀJUMI</h3>
+[span_22](start_span)<p>Vizuāls pārskats par visiem termiņiem ar automātiskiem paziņojumiem[span_22](end_span).</p>
+</div>
+
+<div class="feature-box">
+<h3>PROGRESU SEKOTĀJS</h3>
+[span_23](start_span)<p>Interaktīvi grafiki, kas parāda tavus sasniegumus katrā priekšmetā[span_23](end_span).</p>
+</div>
+
+<div class="feature-box">
+<h3>KOMUNIKĀCIJA</h3>
+[span_24](start_span)<p>Jautājumu sadaļa saziņai ar skolotājiem un grupas biedriem[span_24](end_span).</p>
+</div>
+</div>
+
+[span_25](start_span)<h2>RISINĀJUMS: VISS VIENUVIET[span_25](end_span)</h2>
+<ul>
+[span_26](start_span)<li>**CENTRĀLIZĒTA PLATFORMA:** Visi uzdevumi un materiāli vienā vietā – nevajag pārslēgties starp daudzām lietotnēm[span_26](end_span).</li>
+[span_27](start_span)<li>**ATGĀDINĀJUMI:** Automātiski paziņojumi par tuvojošiem termiņiem – nekad vairs nepalaidīsi garām svarīgu uzdevumu[span_27](end_span).</li>
+[span_28](start_span)<li>**PROGRESU IZSEKOŠANA:** Vizuāli grafiki un statistika, kas parāda tavus sasniegumus un motivē turpināt[span_28](end_span).</li>
+</ul>
+
+</div>
+</body>
+</html>
